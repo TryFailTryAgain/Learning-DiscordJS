@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
 
-//sends the "robot-no-meme.jpg" file in the testing commands folder as a reply to the user
+// Sends the "robot-no-meme.jpg" file in the testing commands folder as a reply to the user
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('selfi')

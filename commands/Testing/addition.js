@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
 
-//takes in two numbers and adds them together. Yay!
+// Takes in two numbers and adds them together. Yay!
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('addition')
